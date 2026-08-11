@@ -1,0 +1,4887 @@
+<?xml version="1.0"?>
+<robot name="basketball_court">
+  <material name="court_white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+  <link name="court">
+    <visual>
+      <origin xyz="0.000000 -7.620000 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="28.651200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="14.325600 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="15.240000 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.000000 7.620000 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="28.651200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-14.325600 0.000000 0.000000" rpy="0.000000 0.000000 -1.570796"/>
+      <geometry>
+        <box size="15.240000 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.000000 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="15.240000 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.823791 0.095581 0.000000" rpy="0.000000 0.000000 1.623156"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.803809 0.285695 0.000000" rpy="0.000000 0.000000 1.727876"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.764064 0.472680 0.000000" rpy="0.000000 0.000000 1.832596"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.704992 0.654485 0.000000" rpy="0.000000 0.000000 1.937315"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.627240 0.829120 0.000000" rpy="0.000000 0.000000 2.042035"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.531659 0.994671 0.000000" rpy="0.000000 0.000000 2.146755"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.419297 1.149324 0.000000" rpy="0.000000 0.000000 2.251475"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.291385 1.291385 0.000000" rpy="0.000000 0.000000 2.356194"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.149324 1.419297 0.000000" rpy="0.000000 0.000000 2.460914"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.994671 1.531659 0.000000" rpy="0.000000 0.000000 2.565634"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.829120 1.627240 0.000000" rpy="0.000000 0.000000 2.670354"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.654485 1.704992 0.000000" rpy="0.000000 0.000000 2.775074"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.472680 1.764064 0.000000" rpy="0.000000 0.000000 2.879793"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.285695 1.803809 0.000000" rpy="0.000000 0.000000 2.984513"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.095581 1.823791 0.000000" rpy="0.000000 0.000000 3.089233"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.095581 1.823791 0.000000" rpy="0.000000 0.000000 -3.089233"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.285695 1.803809 0.000000" rpy="0.000000 0.000000 -2.984513"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.472680 1.764064 0.000000" rpy="0.000000 0.000000 -2.879793"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.654485 1.704992 0.000000" rpy="0.000000 0.000000 -2.775074"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.829120 1.627240 0.000000" rpy="0.000000 0.000000 -2.670354"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.994671 1.531659 0.000000" rpy="0.000000 0.000000 -2.565634"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.149324 1.419297 0.000000" rpy="0.000000 0.000000 -2.460914"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.291385 1.291385 0.000000" rpy="0.000000 0.000000 -2.356194"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.419297 1.149324 0.000000" rpy="0.000000 0.000000 -2.251475"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.531659 0.994671 0.000000" rpy="0.000000 0.000000 -2.146755"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.627240 0.829120 0.000000" rpy="0.000000 0.000000 -2.042035"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.704992 0.654485 0.000000" rpy="0.000000 0.000000 -1.937315"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.764064 0.472680 0.000000" rpy="0.000000 0.000000 -1.832596"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.803809 0.285695 0.000000" rpy="0.000000 0.000000 -1.727876"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.823791 0.095581 0.000000" rpy="0.000000 0.000000 -1.623156"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.823791 -0.095581 0.000000" rpy="0.000000 0.000000 -1.518436"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.803809 -0.285695 0.000000" rpy="0.000000 0.000000 -1.413717"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.764064 -0.472680 0.000000" rpy="0.000000 0.000000 -1.308997"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.704992 -0.654485 0.000000" rpy="0.000000 0.000000 -1.204277"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.627240 -0.829120 0.000000" rpy="0.000000 0.000000 -1.099557"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.531659 -0.994671 0.000000" rpy="0.000000 0.000000 -0.994838"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.419297 -1.149324 0.000000" rpy="0.000000 0.000000 -0.890118"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.291385 -1.291385 0.000000" rpy="0.000000 0.000000 -0.785398"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.149324 -1.419297 0.000000" rpy="0.000000 0.000000 -0.680678"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.994671 -1.531659 0.000000" rpy="0.000000 0.000000 -0.575959"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.829120 -1.627240 0.000000" rpy="0.000000 0.000000 -0.471239"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.654485 -1.704992 0.000000" rpy="0.000000 0.000000 -0.366519"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.472680 -1.764064 0.000000" rpy="0.000000 0.000000 -0.261799"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.285695 -1.803809 0.000000" rpy="0.000000 0.000000 -0.157080"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.095581 -1.823791 0.000000" rpy="0.000000 0.000000 -0.052360"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.095581 -1.823791 0.000000" rpy="0.000000 0.000000 0.052360"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.285695 -1.803809 0.000000" rpy="0.000000 0.000000 0.157080"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.472680 -1.764064 0.000000" rpy="0.000000 0.000000 0.261799"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.654485 -1.704992 0.000000" rpy="0.000000 0.000000 0.366519"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.829120 -1.627240 0.000000" rpy="0.000000 0.000000 0.471239"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="0.994671 -1.531659 0.000000" rpy="0.000000 0.000000 0.575959"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.149324 -1.419297 0.000000" rpy="0.000000 0.000000 0.680678"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.291385 -1.291385 0.000000" rpy="0.000000 0.000000 0.785398"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.419297 -1.149324 0.000000" rpy="0.000000 0.000000 0.890118"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.531659 -0.994671 0.000000" rpy="0.000000 0.000000 0.994838"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.627240 -0.829120 0.000000" rpy="0.000000 0.000000 1.099557"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.704992 -0.654485 0.000000" rpy="0.000000 0.000000 1.204277"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.764064 -0.472680 0.000000" rpy="0.000000 0.000000 1.308997"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.803809 -0.285695 0.000000" rpy="0.000000 0.000000 1.413717"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="1.823791 -0.095581 0.000000" rpy="0.000000 0.000000 1.518436"/>
+      <geometry>
+        <box size="0.191424 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.179300 -6.705600 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="4.292600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.015561 -6.705600 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="0.034879 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.866837 -6.649159 0.000000" rpy="0.000000 0.000000 0.406025"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.606599 -6.531139 0.000000" rpy="0.000000 0.000000 0.445509"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.351223 -6.402939 0.000000" rpy="0.000000 0.000000 0.484993"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.101106 -6.264758 0.000000" rpy="0.000000 0.000000 0.524476"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.856639 -6.116812 0.000000" rpy="0.000000 0.000000 0.563960"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.618202 -5.959331 0.000000" rpy="0.000000 0.000000 0.603444"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.386168 -5.792561 0.000000" rpy="0.000000 0.000000 0.642928"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.160897 -5.616762 0.000000" rpy="0.000000 0.000000 0.682411"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.942741 -5.432207 0.000000" rpy="0.000000 0.000000 0.721895"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.732040 -5.239185 0.000000" rpy="0.000000 0.000000 0.761379"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.529123 -5.037996 0.000000" rpy="0.000000 0.000000 0.800863"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.334305 -4.828954 0.000000" rpy="0.000000 0.000000 0.840347"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.147891 -4.612385 0.000000" rpy="0.000000 0.000000 0.879830"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.970171 -4.388626 0.000000" rpy="0.000000 0.000000 0.919314"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.801422 -4.158027 0.000000" rpy="0.000000 0.000000 0.958798"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.641907 -3.920946 0.000000" rpy="0.000000 0.000000 0.998282"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.491875 -3.677753 0.000000" rpy="0.000000 0.000000 1.037765"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.351560 -3.428828 0.000000" rpy="0.000000 0.000000 1.077249"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.221179 -3.174557 0.000000" rpy="0.000000 0.000000 1.116733"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.100938 -2.915339 0.000000" rpy="0.000000 0.000000 1.156217"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.991022 -2.651576 0.000000" rpy="0.000000 0.000000 1.195700"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.891604 -2.383680 0.000000" rpy="0.000000 0.000000 1.235184"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.802838 -2.112068 0.000000" rpy="0.000000 0.000000 1.274668"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.724862 -1.837164 0.000000" rpy="0.000000 0.000000 1.314152"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.657799 -1.559396 0.000000" rpy="0.000000 0.000000 1.353636"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.601753 -1.279198 0.000000" rpy="0.000000 0.000000 1.393119"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.556810 -0.997005 0.000000" rpy="0.000000 0.000000 1.432603"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.523042 -0.713259 0.000000" rpy="0.000000 0.000000 1.472087"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.500500 -0.428400 0.000000" rpy="0.000000 0.000000 1.511571"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.489221 -0.142874 0.000000" rpy="0.000000 0.000000 1.551054"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.489221 0.142874 0.000000" rpy="0.000000 0.000000 1.590538"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.500500 0.428400 0.000000" rpy="0.000000 0.000000 1.630022"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.523042 0.713259 0.000000" rpy="0.000000 0.000000 1.669506"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.556810 0.997005 0.000000" rpy="0.000000 0.000000 1.708990"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.601753 1.279198 0.000000" rpy="0.000000 0.000000 1.748473"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.657799 1.559396 0.000000" rpy="0.000000 0.000000 1.787957"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.724862 1.837164 0.000000" rpy="0.000000 0.000000 1.827441"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.802838 2.112068 0.000000" rpy="0.000000 0.000000 1.866925"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.891604 2.383680 0.000000" rpy="0.000000 0.000000 1.906408"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-5.991022 2.651576 0.000000" rpy="0.000000 0.000000 1.945892"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.100938 2.915339 0.000000" rpy="0.000000 0.000000 1.985376"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.221179 3.174557 0.000000" rpy="0.000000 0.000000 2.024860"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.351560 3.428828 0.000000" rpy="0.000000 0.000000 2.064344"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.491875 3.677753 0.000000" rpy="0.000000 0.000000 2.103827"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.641907 3.920946 0.000000" rpy="0.000000 0.000000 2.143311"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.801422 4.158027 0.000000" rpy="0.000000 0.000000 2.182795"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.970171 4.388626 0.000000" rpy="0.000000 0.000000 2.222279"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.147891 4.612385 0.000000" rpy="0.000000 0.000000 2.261762"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.334305 4.828954 0.000000" rpy="0.000000 0.000000 2.301246"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.529123 5.037996 0.000000" rpy="0.000000 0.000000 2.340730"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.732040 5.239185 0.000000" rpy="0.000000 0.000000 2.380214"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.942741 5.432207 0.000000" rpy="0.000000 0.000000 2.419697"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.160897 5.616762 0.000000" rpy="0.000000 0.000000 2.459181"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.386168 5.792561 0.000000" rpy="0.000000 0.000000 2.498665"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.618202 5.959331 0.000000" rpy="0.000000 0.000000 2.538149"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.856639 6.116812 0.000000" rpy="0.000000 0.000000 2.577633"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.101106 6.264758 0.000000" rpy="0.000000 0.000000 2.617116"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.351223 6.402939 0.000000" rpy="0.000000 0.000000 2.656600"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.606599 6.531139 0.000000" rpy="0.000000 0.000000 2.696084"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.866837 6.649159 0.000000" rpy="0.000000 0.000000 2.735568"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.015561 6.705600 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="0.034879 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.179300 6.705600 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="4.292600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.430000 -2.438400 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.534400 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="4.876800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.430000 2.438400 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.430000 -1.828800 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.534400 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="3.657600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.430000 1.828800 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.582256 1.827547 0.000000" rpy="0.000000 0.000000 -3.115413"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.677837 1.822538 0.000000" rpy="0.000000 0.000000 -3.063053"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.773025 1.812533 0.000000" rpy="0.000000 0.000000 -3.010693"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.867558 1.797560 0.000000" rpy="0.000000 0.000000 -2.958333"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.961179 1.777661 0.000000" rpy="0.000000 0.000000 -2.905973"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.053629 1.752889 0.000000" rpy="0.000000 0.000000 -2.853613"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.144657 1.723312 0.000000" rpy="0.000000 0.000000 -2.801253"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.234012 1.689012 0.000000" rpy="0.000000 0.000000 -2.748894"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.321449 1.650082 0.000000" rpy="0.000000 0.000000 -2.696534"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.406729 1.606630 0.000000" rpy="0.000000 0.000000 -2.644174"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.489618 1.558774 0.000000" rpy="0.000000 0.000000 -2.591814"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.569889 1.506646 0.000000" rpy="0.000000 0.000000 -2.539454"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.647321 1.450387 0.000000" rpy="0.000000 0.000000 -2.487094"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.721704 1.390154 0.000000" rpy="0.000000 0.000000 -2.434734"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.792831 1.326110 0.000000" rpy="0.000000 0.000000 -2.382374"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.860510 1.258431 0.000000" rpy="0.000000 0.000000 -2.330015"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.924554 1.187304 0.000000" rpy="0.000000 0.000000 -2.277655"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.984787 1.112921 0.000000" rpy="0.000000 0.000000 -2.225295"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.041046 1.035489 0.000000" rpy="0.000000 0.000000 -2.172935"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.093174 0.955218 0.000000" rpy="0.000000 0.000000 -2.120575"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.141030 0.872329 0.000000" rpy="0.000000 0.000000 -2.068215"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.184482 0.787049 0.000000" rpy="0.000000 0.000000 -2.015855"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.223412 0.699612 0.000000" rpy="0.000000 0.000000 -1.963495"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.257712 0.610257 0.000000" rpy="0.000000 0.000000 -1.911136"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.287289 0.519229 0.000000" rpy="0.000000 0.000000 -1.858776"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.312061 0.426779 0.000000" rpy="0.000000 0.000000 -1.806416"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.331960 0.333158 0.000000" rpy="0.000000 0.000000 -1.754056"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.346933 0.238625 0.000000" rpy="0.000000 0.000000 -1.701696"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.356938 0.143437 0.000000" rpy="0.000000 0.000000 -1.649336"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.361947 0.047856 0.000000" rpy="0.000000 0.000000 -1.596976"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.361947 -0.047856 0.000000" rpy="0.000000 0.000000 -1.544616"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.356938 -0.143437 0.000000" rpy="0.000000 0.000000 -1.492257"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.346933 -0.238625 0.000000" rpy="0.000000 0.000000 -1.439897"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.331960 -0.333158 0.000000" rpy="0.000000 0.000000 -1.387537"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.312061 -0.426779 0.000000" rpy="0.000000 0.000000 -1.335177"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.287289 -0.519229 0.000000" rpy="0.000000 0.000000 -1.282817"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.257712 -0.610257 0.000000" rpy="0.000000 0.000000 -1.230457"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.223412 -0.699612 0.000000" rpy="0.000000 0.000000 -1.178097"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.184482 -0.787049 0.000000" rpy="0.000000 0.000000 -1.125737"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.141030 -0.872329 0.000000" rpy="0.000000 0.000000 -1.073377"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.093174 -0.955218 0.000000" rpy="0.000000 0.000000 -1.021018"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-10.041046 -1.035489 0.000000" rpy="0.000000 0.000000 -0.968658"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.984787 -1.112921 0.000000" rpy="0.000000 0.000000 -0.916298"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.924554 -1.187304 0.000000" rpy="0.000000 0.000000 -0.863938"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.860510 -1.258431 0.000000" rpy="0.000000 0.000000 -0.811578"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.792831 -1.326110 0.000000" rpy="0.000000 0.000000 -0.759218"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.721704 -1.390154 0.000000" rpy="0.000000 0.000000 -0.706858"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.647321 -1.450387 0.000000" rpy="0.000000 0.000000 -0.654498"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.569889 -1.506646 0.000000" rpy="0.000000 0.000000 -0.602139"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.489618 -1.558774 0.000000" rpy="0.000000 0.000000 -0.549779"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.406729 -1.606630 0.000000" rpy="0.000000 0.000000 -0.497419"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.321449 -1.650082 0.000000" rpy="0.000000 0.000000 -0.445059"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.234012 -1.689012 0.000000" rpy="0.000000 0.000000 -0.392699"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.144657 -1.723312 0.000000" rpy="0.000000 0.000000 -0.340339"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-9.053629 -1.752889 0.000000" rpy="0.000000 0.000000 -0.287979"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.961179 -1.777661 0.000000" rpy="0.000000 0.000000 -0.235619"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.867558 -1.797560 0.000000" rpy="0.000000 0.000000 -0.183260"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.773025 -1.812533 0.000000" rpy="0.000000 0.000000 -0.130900"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.677837 -1.822538 0.000000" rpy="0.000000 0.000000 -0.078540"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.582256 -1.827547 0.000000" rpy="0.000000 0.000000 -0.026180"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.486544 -1.827547 0.000000" rpy="0.000000 0.000000 0.026180"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.390963 -1.822538 0.000000" rpy="0.000000 0.000000 0.078540"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.295775 -1.812533 0.000000" rpy="0.000000 0.000000 0.130900"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.201242 -1.797560 0.000000" rpy="0.000000 0.000000 0.183260"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.107621 -1.777661 0.000000" rpy="0.000000 0.000000 0.235619"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.015171 -1.752889 0.000000" rpy="0.000000 0.000000 0.287979"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.924143 -1.723312 0.000000" rpy="0.000000 0.000000 0.340339"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.834788 -1.689012 0.000000" rpy="0.000000 0.000000 0.392699"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.747351 -1.650082 0.000000" rpy="0.000000 0.000000 0.445059"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.662071 -1.606630 0.000000" rpy="0.000000 0.000000 0.497419"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.579182 -1.558774 0.000000" rpy="0.000000 0.000000 0.549779"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.498911 -1.506646 0.000000" rpy="0.000000 0.000000 0.602139"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.421479 -1.450387 0.000000" rpy="0.000000 0.000000 0.654498"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.347096 -1.390154 0.000000" rpy="0.000000 0.000000 0.706858"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.275969 -1.326110 0.000000" rpy="0.000000 0.000000 0.759218"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.208290 -1.258431 0.000000" rpy="0.000000 0.000000 0.811578"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.144246 -1.187304 0.000000" rpy="0.000000 0.000000 0.863938"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.084013 -1.112921 0.000000" rpy="0.000000 0.000000 0.916298"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.027754 -1.035489 0.000000" rpy="0.000000 0.000000 0.968658"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.975626 -0.955218 0.000000" rpy="0.000000 0.000000 1.021018"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.927770 -0.872329 0.000000" rpy="0.000000 0.000000 1.073377"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.884318 -0.787049 0.000000" rpy="0.000000 0.000000 1.125737"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.845388 -0.699612 0.000000" rpy="0.000000 0.000000 1.178097"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.811088 -0.610257 0.000000" rpy="0.000000 0.000000 1.230457"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.781511 -0.519229 0.000000" rpy="0.000000 0.000000 1.282817"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.756739 -0.426779 0.000000" rpy="0.000000 0.000000 1.335177"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.736840 -0.333158 0.000000" rpy="0.000000 0.000000 1.387537"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.721867 -0.238625 0.000000" rpy="0.000000 0.000000 1.439897"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.711862 -0.143437 0.000000" rpy="0.000000 0.000000 1.492257"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.706853 -0.047856 0.000000" rpy="0.000000 0.000000 1.544616"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.706853 0.047856 0.000000" rpy="0.000000 0.000000 1.596976"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.711862 0.143437 0.000000" rpy="0.000000 0.000000 1.649336"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.721867 0.238625 0.000000" rpy="0.000000 0.000000 1.701696"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.736840 0.333158 0.000000" rpy="0.000000 0.000000 1.754056"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.756739 0.426779 0.000000" rpy="0.000000 0.000000 1.806416"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.781511 0.519229 0.000000" rpy="0.000000 0.000000 1.858776"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.811088 0.610257 0.000000" rpy="0.000000 0.000000 1.911136"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.845388 0.699612 0.000000" rpy="0.000000 0.000000 1.963495"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.884318 0.787049 0.000000" rpy="0.000000 0.000000 2.015855"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.927770 0.872329 0.000000" rpy="0.000000 0.000000 2.068215"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-6.975626 0.955218 0.000000" rpy="0.000000 0.000000 2.120575"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.027754 1.035489 0.000000" rpy="0.000000 0.000000 2.172935"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.084013 1.112921 0.000000" rpy="0.000000 0.000000 2.225295"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.144246 1.187304 0.000000" rpy="0.000000 0.000000 2.277655"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.208290 1.258431 0.000000" rpy="0.000000 0.000000 2.330015"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.275969 1.326110 0.000000" rpy="0.000000 0.000000 2.382374"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.347096 1.390154 0.000000" rpy="0.000000 0.000000 2.434734"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.421479 1.450387 0.000000" rpy="0.000000 0.000000 2.487094"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.498911 1.506646 0.000000" rpy="0.000000 0.000000 2.539454"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.579182 1.558774 0.000000" rpy="0.000000 0.000000 2.591814"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.662071 1.606630 0.000000" rpy="0.000000 0.000000 2.644174"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.747351 1.650082 0.000000" rpy="0.000000 0.000000 2.696534"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.834788 1.689012 0.000000" rpy="0.000000 0.000000 2.748894"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-7.924143 1.723312 0.000000" rpy="0.000000 0.000000 2.801253"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.015171 1.752889 0.000000" rpy="0.000000 0.000000 2.853613"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.107621 1.777661 0.000000" rpy="0.000000 0.000000 2.905973"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.201242 1.797560 0.000000" rpy="0.000000 0.000000 2.958333"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.295775 1.812533 0.000000" rpy="0.000000 0.000000 3.010693"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.390963 1.822538 0.000000" rpy="0.000000 0.000000 3.063053"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-8.486544 1.827547 0.000000" rpy="0.000000 0.000000 3.115413"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.693496 -1.218365 0.000000" rpy="0.000000 0.000000 0.026180"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.629775 -1.215025 0.000000" rpy="0.000000 0.000000 0.078540"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.566317 -1.208355 0.000000" rpy="0.000000 0.000000 0.130900"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.503295 -1.198374 0.000000" rpy="0.000000 0.000000 0.183260"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.440881 -1.185107 0.000000" rpy="0.000000 0.000000 0.235619"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.379247 -1.168592 0.000000" rpy="0.000000 0.000000 0.287979"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.318562 -1.148875 0.000000" rpy="0.000000 0.000000 0.340339"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.258992 -1.126008 0.000000" rpy="0.000000 0.000000 0.392699"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.200701 -1.100055 0.000000" rpy="0.000000 0.000000 0.445059"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.143847 -1.071087 0.000000" rpy="0.000000 0.000000 0.497419"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.088588 -1.039183 0.000000" rpy="0.000000 0.000000 0.549779"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.035074 -1.004430 0.000000" rpy="0.000000 0.000000 0.602139"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.983452 -0.966925 0.000000" rpy="0.000000 0.000000 0.654498"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.933864 -0.926769 0.000000" rpy="0.000000 0.000000 0.706858"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.886446 -0.884073 0.000000" rpy="0.000000 0.000000 0.759218"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.841327 -0.838954 0.000000" rpy="0.000000 0.000000 0.811578"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.798631 -0.791536 0.000000" rpy="0.000000 0.000000 0.863938"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.758475 -0.741948 0.000000" rpy="0.000000 0.000000 0.916298"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.720970 -0.690326 0.000000" rpy="0.000000 0.000000 0.968658"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.686217 -0.636812 0.000000" rpy="0.000000 0.000000 1.021018"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.654313 -0.581553 0.000000" rpy="0.000000 0.000000 1.073377"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.625345 -0.524699 0.000000" rpy="0.000000 0.000000 1.125737"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.599392 -0.466408 0.000000" rpy="0.000000 0.000000 1.178097"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.576525 -0.406838 0.000000" rpy="0.000000 0.000000 1.230457"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.556808 -0.346153 0.000000" rpy="0.000000 0.000000 1.282817"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.540293 -0.284519 0.000000" rpy="0.000000 0.000000 1.335177"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.527026 -0.222105 0.000000" rpy="0.000000 0.000000 1.387537"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.517045 -0.159083 0.000000" rpy="0.000000 0.000000 1.439897"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.510375 -0.095625 0.000000" rpy="0.000000 0.000000 1.492257"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.507035 -0.031904 0.000000" rpy="0.000000 0.000000 1.544616"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.507035 0.031904 0.000000" rpy="0.000000 0.000000 1.596976"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.510375 0.095625 0.000000" rpy="0.000000 0.000000 1.649336"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.517045 0.159083 0.000000" rpy="0.000000 0.000000 1.701696"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.527026 0.222105 0.000000" rpy="0.000000 0.000000 1.754056"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.540293 0.284519 0.000000" rpy="0.000000 0.000000 1.806416"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.556808 0.346153 0.000000" rpy="0.000000 0.000000 1.858776"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.576525 0.406838 0.000000" rpy="0.000000 0.000000 1.911136"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.599392 0.466408 0.000000" rpy="0.000000 0.000000 1.963495"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.625345 0.524699 0.000000" rpy="0.000000 0.000000 2.015855"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.654313 0.581553 0.000000" rpy="0.000000 0.000000 2.068215"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.686217 0.636812 0.000000" rpy="0.000000 0.000000 2.120575"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.720970 0.690326 0.000000" rpy="0.000000 0.000000 2.172935"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.758475 0.741948 0.000000" rpy="0.000000 0.000000 2.225295"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.798631 0.791536 0.000000" rpy="0.000000 0.000000 2.277655"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.841327 0.838954 0.000000" rpy="0.000000 0.000000 2.330015"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.886446 0.884073 0.000000" rpy="0.000000 0.000000 2.382374"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.933864 0.926769 0.000000" rpy="0.000000 0.000000 2.434734"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-11.983452 0.966925 0.000000" rpy="0.000000 0.000000 2.487094"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.035074 1.004430 0.000000" rpy="0.000000 0.000000 2.539454"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.088588 1.039183 0.000000" rpy="0.000000 0.000000 2.591814"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.143847 1.071087 0.000000" rpy="0.000000 0.000000 2.644174"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.200701 1.100055 0.000000" rpy="0.000000 0.000000 2.696534"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.258992 1.126008 0.000000" rpy="0.000000 0.000000 2.748894"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.318562 1.148875 0.000000" rpy="0.000000 0.000000 2.801253"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.379247 1.168592 0.000000" rpy="0.000000 0.000000 2.853613"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.440881 1.185107 0.000000" rpy="0.000000 0.000000 2.905973"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.503295 1.198374 0.000000" rpy="0.000000 0.000000 2.958333"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.566317 1.208355 0.000000" rpy="0.000000 0.000000 3.010693"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.629775 1.215025 0.000000" rpy="0.000000 0.000000 3.063053"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.693496 1.218365 0.000000" rpy="0.000000 0.000000 3.115413"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.525500 -1.219200 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="1.600200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.525500 1.219200 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="1.600200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.106400 0.000000 2.895600" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="1.828800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.106400 0.000000 3.962400" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="1.828800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.106400 -0.914400 3.429000" rpy="0.000000 1.570796 0.000000"/>
+      <geometry>
+        <box size="1.066800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-13.106400 0.914400 3.429000" rpy="0.000000 1.570796 0.000000"/>
+      <geometry>
+        <box size="1.066800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.497426 0.011948 3.048000" rpy="0.000000 0.000000 1.623156"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.499924 0.035712 3.048000" rpy="0.000000 0.000000 1.727876"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.504892 0.059085 3.048000" rpy="0.000000 0.000000 1.832596"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.512276 0.081811 3.048000" rpy="0.000000 0.000000 1.937315"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.521995 0.103640 3.048000" rpy="0.000000 0.000000 2.042035"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.533943 0.124334 3.048000" rpy="0.000000 0.000000 2.146755"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.547988 0.143665 3.048000" rpy="0.000000 0.000000 2.251475"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.563977 0.161423 3.048000" rpy="0.000000 0.000000 2.356194"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.581735 0.177412 3.048000" rpy="0.000000 0.000000 2.460914"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.601066 0.191457 3.048000" rpy="0.000000 0.000000 2.565634"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.621760 0.203405 3.048000" rpy="0.000000 0.000000 2.670354"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.643589 0.213124 3.048000" rpy="0.000000 0.000000 2.775074"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.666315 0.220508 3.048000" rpy="0.000000 0.000000 2.879793"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.689688 0.225476 3.048000" rpy="0.000000 0.000000 2.984513"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.713452 0.227974 3.048000" rpy="0.000000 0.000000 3.089233"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.737348 0.227974 3.048000" rpy="0.000000 0.000000 -3.089233"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.761112 0.225476 3.048000" rpy="0.000000 0.000000 -2.984513"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.784485 0.220508 3.048000" rpy="0.000000 0.000000 -2.879793"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.807211 0.213124 3.048000" rpy="0.000000 0.000000 -2.775074"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.829040 0.203405 3.048000" rpy="0.000000 0.000000 -2.670354"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.849734 0.191457 3.048000" rpy="0.000000 0.000000 -2.565634"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.869065 0.177412 3.048000" rpy="0.000000 0.000000 -2.460914"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.886823 0.161423 3.048000" rpy="0.000000 0.000000 -2.356194"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.902812 0.143665 3.048000" rpy="0.000000 0.000000 -2.251475"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.916857 0.124334 3.048000" rpy="0.000000 0.000000 -2.146755"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.928805 0.103640 3.048000" rpy="0.000000 0.000000 -2.042035"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.938524 0.081811 3.048000" rpy="0.000000 0.000000 -1.937315"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.945908 0.059085 3.048000" rpy="0.000000 0.000000 -1.832596"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.950876 0.035712 3.048000" rpy="0.000000 0.000000 -1.727876"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.953374 0.011948 3.048000" rpy="0.000000 0.000000 -1.623156"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.953374 -0.011948 3.048000" rpy="0.000000 0.000000 -1.518436"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.950876 -0.035712 3.048000" rpy="0.000000 0.000000 -1.413717"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.945908 -0.059085 3.048000" rpy="0.000000 0.000000 -1.308997"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.938524 -0.081811 3.048000" rpy="0.000000 0.000000 -1.204277"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.928805 -0.103640 3.048000" rpy="0.000000 0.000000 -1.099557"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.916857 -0.124334 3.048000" rpy="0.000000 0.000000 -0.994838"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.902812 -0.143665 3.048000" rpy="0.000000 0.000000 -0.890118"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.886823 -0.161423 3.048000" rpy="0.000000 0.000000 -0.785398"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.869065 -0.177412 3.048000" rpy="0.000000 0.000000 -0.680678"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.849734 -0.191457 3.048000" rpy="0.000000 0.000000 -0.575959"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.829040 -0.203405 3.048000" rpy="0.000000 0.000000 -0.471239"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.807211 -0.213124 3.048000" rpy="0.000000 0.000000 -0.366519"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.784485 -0.220508 3.048000" rpy="0.000000 0.000000 -0.261799"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.761112 -0.225476 3.048000" rpy="0.000000 0.000000 -0.157080"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.737348 -0.227974 3.048000" rpy="0.000000 0.000000 -0.052360"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.713452 -0.227974 3.048000" rpy="0.000000 0.000000 0.052360"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.689688 -0.225476 3.048000" rpy="0.000000 0.000000 0.157080"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.666315 -0.220508 3.048000" rpy="0.000000 0.000000 0.261799"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.643589 -0.213124 3.048000" rpy="0.000000 0.000000 0.366519"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.621760 -0.203405 3.048000" rpy="0.000000 0.000000 0.471239"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.601066 -0.191457 3.048000" rpy="0.000000 0.000000 0.575959"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.581735 -0.177412 3.048000" rpy="0.000000 0.000000 0.680678"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.563977 -0.161423 3.048000" rpy="0.000000 0.000000 0.785398"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.547988 -0.143665 3.048000" rpy="0.000000 0.000000 0.890118"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.533943 -0.124334 3.048000" rpy="0.000000 0.000000 0.994838"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.521995 -0.103640 3.048000" rpy="0.000000 0.000000 1.099557"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.512276 -0.081811 3.048000" rpy="0.000000 0.000000 1.204277"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.504892 -0.059085 3.048000" rpy="0.000000 0.000000 1.308997"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.499924 -0.035712 3.048000" rpy="0.000000 0.000000 1.413717"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="-12.497426 -0.011948 3.048000" rpy="0.000000 0.000000 1.518436"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.179300 -6.705600 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="4.292600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.015561 -6.705600 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="0.034879 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.866837 -6.649159 0.000000" rpy="0.000000 0.000000 2.735568"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.606599 -6.531139 0.000000" rpy="0.000000 0.000000 2.696084"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.351223 -6.402939 0.000000" rpy="0.000000 0.000000 2.656600"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.101106 -6.264758 0.000000" rpy="0.000000 0.000000 2.617116"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.856639 -6.116812 0.000000" rpy="0.000000 0.000000 2.577633"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.618202 -5.959331 0.000000" rpy="0.000000 0.000000 2.538149"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.386168 -5.792561 0.000000" rpy="0.000000 0.000000 2.498665"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.160897 -5.616762 0.000000" rpy="0.000000 0.000000 2.459181"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.942741 -5.432207 0.000000" rpy="0.000000 0.000000 2.419697"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.732040 -5.239185 0.000000" rpy="0.000000 0.000000 2.380214"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.529123 -5.037996 0.000000" rpy="0.000000 0.000000 2.340730"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.334305 -4.828954 0.000000" rpy="0.000000 0.000000 2.301246"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.147891 -4.612385 0.000000" rpy="0.000000 0.000000 2.261762"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.970171 -4.388626 0.000000" rpy="0.000000 0.000000 2.222279"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.801422 -4.158027 0.000000" rpy="0.000000 0.000000 2.182795"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.641907 -3.920946 0.000000" rpy="0.000000 0.000000 2.143311"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.491875 -3.677753 0.000000" rpy="0.000000 0.000000 2.103827"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.351560 -3.428828 0.000000" rpy="0.000000 0.000000 2.064344"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.221179 -3.174557 0.000000" rpy="0.000000 0.000000 2.024860"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.100938 -2.915339 0.000000" rpy="0.000000 0.000000 1.985376"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.991022 -2.651576 0.000000" rpy="0.000000 0.000000 1.945892"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.891604 -2.383680 0.000000" rpy="0.000000 0.000000 1.906408"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.802838 -2.112068 0.000000" rpy="0.000000 0.000000 1.866925"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.724862 -1.837164 0.000000" rpy="0.000000 0.000000 1.827441"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.657799 -1.559396 0.000000" rpy="0.000000 0.000000 1.787957"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.601753 -1.279198 0.000000" rpy="0.000000 0.000000 1.748473"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.556810 -0.997005 0.000000" rpy="0.000000 0.000000 1.708990"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.523042 -0.713259 0.000000" rpy="0.000000 0.000000 1.669506"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.500500 -0.428400 0.000000" rpy="0.000000 0.000000 1.630022"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.489221 -0.142874 0.000000" rpy="0.000000 0.000000 1.590538"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.489221 0.142874 0.000000" rpy="0.000000 0.000000 1.551054"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.500500 0.428400 0.000000" rpy="0.000000 0.000000 1.511571"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.523042 0.713259 0.000000" rpy="0.000000 0.000000 1.472087"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.556810 0.997005 0.000000" rpy="0.000000 0.000000 1.432603"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.601753 1.279198 0.000000" rpy="0.000000 0.000000 1.393119"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.657799 1.559396 0.000000" rpy="0.000000 0.000000 1.353636"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.724862 1.837164 0.000000" rpy="0.000000 0.000000 1.314152"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.802838 2.112068 0.000000" rpy="0.000000 0.000000 1.274668"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.891604 2.383680 0.000000" rpy="0.000000 0.000000 1.235184"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="5.991022 2.651576 0.000000" rpy="0.000000 0.000000 1.195700"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.100938 2.915339 0.000000" rpy="0.000000 0.000000 1.156217"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.221179 3.174557 0.000000" rpy="0.000000 0.000000 1.116733"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.351560 3.428828 0.000000" rpy="0.000000 0.000000 1.077249"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.491875 3.677753 0.000000" rpy="0.000000 0.000000 1.037765"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.641907 3.920946 0.000000" rpy="0.000000 0.000000 0.998282"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.801422 4.158027 0.000000" rpy="0.000000 0.000000 0.958798"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.970171 4.388626 0.000000" rpy="0.000000 0.000000 0.919314"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.147891 4.612385 0.000000" rpy="0.000000 0.000000 0.879830"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.334305 4.828954 0.000000" rpy="0.000000 0.000000 0.840347"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.529123 5.037996 0.000000" rpy="0.000000 0.000000 0.800863"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.732040 5.239185 0.000000" rpy="0.000000 0.000000 0.761379"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.942741 5.432207 0.000000" rpy="0.000000 0.000000 0.721895"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.160897 5.616762 0.000000" rpy="0.000000 0.000000 0.682411"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.386168 5.792561 0.000000" rpy="0.000000 0.000000 0.642928"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.618202 5.959331 0.000000" rpy="0.000000 0.000000 0.603444"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.856639 6.116812 0.000000" rpy="0.000000 0.000000 0.563960"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.101106 6.264758 0.000000" rpy="0.000000 0.000000 0.524476"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.351223 6.402939 0.000000" rpy="0.000000 0.000000 0.484993"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.606599 6.531139 0.000000" rpy="0.000000 0.000000 0.445509"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.866837 6.649159 0.000000" rpy="0.000000 0.000000 0.406025"/>
+      <geometry>
+        <box size="0.285804 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.015561 6.705600 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="0.034879 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.179300 6.705600 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="4.292600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.430000 -2.438400 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.534400 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="4.876800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.430000 2.438400 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.430000 -1.828800 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.534400 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="3.657600 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.430000 1.828800 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="5.791200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.486544 1.827547 0.000000" rpy="0.000000 0.000000 -3.115413"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.390963 1.822538 0.000000" rpy="0.000000 0.000000 -3.063053"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.295775 1.812533 0.000000" rpy="0.000000 0.000000 -3.010693"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.201242 1.797560 0.000000" rpy="0.000000 0.000000 -2.958333"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.107621 1.777661 0.000000" rpy="0.000000 0.000000 -2.905973"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.015171 1.752889 0.000000" rpy="0.000000 0.000000 -2.853613"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.924143 1.723312 0.000000" rpy="0.000000 0.000000 -2.801253"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.834788 1.689012 0.000000" rpy="0.000000 0.000000 -2.748894"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.747351 1.650082 0.000000" rpy="0.000000 0.000000 -2.696534"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.662071 1.606630 0.000000" rpy="0.000000 0.000000 -2.644174"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.579182 1.558774 0.000000" rpy="0.000000 0.000000 -2.591814"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.498911 1.506646 0.000000" rpy="0.000000 0.000000 -2.539454"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.421479 1.450387 0.000000" rpy="0.000000 0.000000 -2.487094"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.347096 1.390154 0.000000" rpy="0.000000 0.000000 -2.434734"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.275969 1.326110 0.000000" rpy="0.000000 0.000000 -2.382374"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.208290 1.258431 0.000000" rpy="0.000000 0.000000 -2.330015"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.144246 1.187304 0.000000" rpy="0.000000 0.000000 -2.277655"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.084013 1.112921 0.000000" rpy="0.000000 0.000000 -2.225295"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.027754 1.035489 0.000000" rpy="0.000000 0.000000 -2.172935"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.975626 0.955218 0.000000" rpy="0.000000 0.000000 -2.120575"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.927770 0.872329 0.000000" rpy="0.000000 0.000000 -2.068215"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.884318 0.787049 0.000000" rpy="0.000000 0.000000 -2.015855"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.845388 0.699612 0.000000" rpy="0.000000 0.000000 -1.963495"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.811088 0.610257 0.000000" rpy="0.000000 0.000000 -1.911136"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.781511 0.519229 0.000000" rpy="0.000000 0.000000 -1.858776"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.756739 0.426779 0.000000" rpy="0.000000 0.000000 -1.806416"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.736840 0.333158 0.000000" rpy="0.000000 0.000000 -1.754056"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.721867 0.238625 0.000000" rpy="0.000000 0.000000 -1.701696"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.711862 0.143437 0.000000" rpy="0.000000 0.000000 -1.649336"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.706853 0.047856 0.000000" rpy="0.000000 0.000000 -1.596976"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.706853 -0.047856 0.000000" rpy="0.000000 0.000000 -1.544616"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.711862 -0.143437 0.000000" rpy="0.000000 0.000000 -1.492257"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.721867 -0.238625 0.000000" rpy="0.000000 0.000000 -1.439897"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.736840 -0.333158 0.000000" rpy="0.000000 0.000000 -1.387537"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.756739 -0.426779 0.000000" rpy="0.000000 0.000000 -1.335177"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.781511 -0.519229 0.000000" rpy="0.000000 0.000000 -1.282817"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.811088 -0.610257 0.000000" rpy="0.000000 0.000000 -1.230457"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.845388 -0.699612 0.000000" rpy="0.000000 0.000000 -1.178097"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.884318 -0.787049 0.000000" rpy="0.000000 0.000000 -1.125737"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.927770 -0.872329 0.000000" rpy="0.000000 0.000000 -1.073377"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="6.975626 -0.955218 0.000000" rpy="0.000000 0.000000 -1.021018"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.027754 -1.035489 0.000000" rpy="0.000000 0.000000 -0.968658"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.084013 -1.112921 0.000000" rpy="0.000000 0.000000 -0.916298"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.144246 -1.187304 0.000000" rpy="0.000000 0.000000 -0.863938"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.208290 -1.258431 0.000000" rpy="0.000000 0.000000 -0.811578"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.275969 -1.326110 0.000000" rpy="0.000000 0.000000 -0.759218"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.347096 -1.390154 0.000000" rpy="0.000000 0.000000 -0.706858"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.421479 -1.450387 0.000000" rpy="0.000000 0.000000 -0.654498"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.498911 -1.506646 0.000000" rpy="0.000000 0.000000 -0.602139"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.579182 -1.558774 0.000000" rpy="0.000000 0.000000 -0.549779"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.662071 -1.606630 0.000000" rpy="0.000000 0.000000 -0.497419"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.747351 -1.650082 0.000000" rpy="0.000000 0.000000 -0.445059"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.834788 -1.689012 0.000000" rpy="0.000000 0.000000 -0.392699"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="7.924143 -1.723312 0.000000" rpy="0.000000 0.000000 -0.340339"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.015171 -1.752889 0.000000" rpy="0.000000 0.000000 -0.287979"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.107621 -1.777661 0.000000" rpy="0.000000 0.000000 -0.235619"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.201242 -1.797560 0.000000" rpy="0.000000 0.000000 -0.183260"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.295775 -1.812533 0.000000" rpy="0.000000 0.000000 -0.130900"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.390963 -1.822538 0.000000" rpy="0.000000 0.000000 -0.078540"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.486544 -1.827547 0.000000" rpy="0.000000 0.000000 -0.026180"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.582256 -1.827547 0.000000" rpy="0.000000 0.000000 0.026180"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.677837 -1.822538 0.000000" rpy="0.000000 0.000000 0.078540"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.773025 -1.812533 0.000000" rpy="0.000000 0.000000 0.130900"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.867558 -1.797560 0.000000" rpy="0.000000 0.000000 0.183260"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.961179 -1.777661 0.000000" rpy="0.000000 0.000000 0.235619"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.053629 -1.752889 0.000000" rpy="0.000000 0.000000 0.287979"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.144657 -1.723312 0.000000" rpy="0.000000 0.000000 0.340339"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.234012 -1.689012 0.000000" rpy="0.000000 0.000000 0.392699"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.321449 -1.650082 0.000000" rpy="0.000000 0.000000 0.445059"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.406729 -1.606630 0.000000" rpy="0.000000 0.000000 0.497419"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.489618 -1.558774 0.000000" rpy="0.000000 0.000000 0.549779"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.569889 -1.506646 0.000000" rpy="0.000000 0.000000 0.602139"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.647321 -1.450387 0.000000" rpy="0.000000 0.000000 0.654498"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.721704 -1.390154 0.000000" rpy="0.000000 0.000000 0.706858"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.792831 -1.326110 0.000000" rpy="0.000000 0.000000 0.759218"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.860510 -1.258431 0.000000" rpy="0.000000 0.000000 0.811578"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.924554 -1.187304 0.000000" rpy="0.000000 0.000000 0.863938"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.984787 -1.112921 0.000000" rpy="0.000000 0.000000 0.916298"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.041046 -1.035489 0.000000" rpy="0.000000 0.000000 0.968658"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.093174 -0.955218 0.000000" rpy="0.000000 0.000000 1.021018"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.141030 -0.872329 0.000000" rpy="0.000000 0.000000 1.073377"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.184482 -0.787049 0.000000" rpy="0.000000 0.000000 1.125737"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.223412 -0.699612 0.000000" rpy="0.000000 0.000000 1.178097"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.257712 -0.610257 0.000000" rpy="0.000000 0.000000 1.230457"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.287289 -0.519229 0.000000" rpy="0.000000 0.000000 1.282817"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.312061 -0.426779 0.000000" rpy="0.000000 0.000000 1.335177"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.331960 -0.333158 0.000000" rpy="0.000000 0.000000 1.387537"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.346933 -0.238625 0.000000" rpy="0.000000 0.000000 1.439897"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.356938 -0.143437 0.000000" rpy="0.000000 0.000000 1.492257"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.361947 -0.047856 0.000000" rpy="0.000000 0.000000 1.544616"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.361947 0.047856 0.000000" rpy="0.000000 0.000000 1.596976"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.356938 0.143437 0.000000" rpy="0.000000 0.000000 1.649336"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.346933 0.238625 0.000000" rpy="0.000000 0.000000 1.701696"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.331960 0.333158 0.000000" rpy="0.000000 0.000000 1.754056"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.312061 0.426779 0.000000" rpy="0.000000 0.000000 1.806416"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.287289 0.519229 0.000000" rpy="0.000000 0.000000 1.858776"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.257712 0.610257 0.000000" rpy="0.000000 0.000000 1.911136"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.223412 0.699612 0.000000" rpy="0.000000 0.000000 1.963495"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.184482 0.787049 0.000000" rpy="0.000000 0.000000 2.015855"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.141030 0.872329 0.000000" rpy="0.000000 0.000000 2.068215"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.093174 0.955218 0.000000" rpy="0.000000 0.000000 2.120575"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="10.041046 1.035489 0.000000" rpy="0.000000 0.000000 2.172935"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.984787 1.112921 0.000000" rpy="0.000000 0.000000 2.225295"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.924554 1.187304 0.000000" rpy="0.000000 0.000000 2.277655"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.860510 1.258431 0.000000" rpy="0.000000 0.000000 2.330015"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.792831 1.326110 0.000000" rpy="0.000000 0.000000 2.382374"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.721704 1.390154 0.000000" rpy="0.000000 0.000000 2.434734"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.647321 1.450387 0.000000" rpy="0.000000 0.000000 2.487094"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.569889 1.506646 0.000000" rpy="0.000000 0.000000 2.539454"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.489618 1.558774 0.000000" rpy="0.000000 0.000000 2.591814"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.406729 1.606630 0.000000" rpy="0.000000 0.000000 2.644174"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.321449 1.650082 0.000000" rpy="0.000000 0.000000 2.696534"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.234012 1.689012 0.000000" rpy="0.000000 0.000000 2.748894"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.144657 1.723312 0.000000" rpy="0.000000 0.000000 2.801253"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="9.053629 1.752889 0.000000" rpy="0.000000 0.000000 2.853613"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.961179 1.777661 0.000000" rpy="0.000000 0.000000 2.905973"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.867558 1.797560 0.000000" rpy="0.000000 0.000000 2.958333"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.773025 1.812533 0.000000" rpy="0.000000 0.000000 3.010693"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.677837 1.822538 0.000000" rpy="0.000000 0.000000 3.063053"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="8.582256 1.827547 0.000000" rpy="0.000000 0.000000 3.115413"/>
+      <geometry>
+        <box size="0.095745 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.693496 1.218365 0.000000" rpy="0.000000 0.000000 -3.115413"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.629775 1.215025 0.000000" rpy="0.000000 0.000000 -3.063053"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.566317 1.208355 0.000000" rpy="0.000000 0.000000 -3.010693"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.503295 1.198374 0.000000" rpy="0.000000 0.000000 -2.958333"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.440881 1.185107 0.000000" rpy="0.000000 0.000000 -2.905973"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.379247 1.168592 0.000000" rpy="0.000000 0.000000 -2.853613"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.318562 1.148875 0.000000" rpy="0.000000 0.000000 -2.801253"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.258992 1.126008 0.000000" rpy="0.000000 0.000000 -2.748894"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.200701 1.100055 0.000000" rpy="0.000000 0.000000 -2.696534"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.143847 1.071087 0.000000" rpy="0.000000 0.000000 -2.644174"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.088588 1.039183 0.000000" rpy="0.000000 0.000000 -2.591814"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.035074 1.004430 0.000000" rpy="0.000000 0.000000 -2.539454"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.983452 0.966925 0.000000" rpy="0.000000 0.000000 -2.487094"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.933864 0.926769 0.000000" rpy="0.000000 0.000000 -2.434734"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.886446 0.884073 0.000000" rpy="0.000000 0.000000 -2.382374"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.841327 0.838954 0.000000" rpy="0.000000 0.000000 -2.330015"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.798631 0.791536 0.000000" rpy="0.000000 0.000000 -2.277655"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.758475 0.741948 0.000000" rpy="0.000000 0.000000 -2.225295"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.720970 0.690326 0.000000" rpy="0.000000 0.000000 -2.172935"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.686217 0.636812 0.000000" rpy="0.000000 0.000000 -2.120575"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.654313 0.581553 0.000000" rpy="0.000000 0.000000 -2.068215"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.625345 0.524699 0.000000" rpy="0.000000 0.000000 -2.015855"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.599392 0.466408 0.000000" rpy="0.000000 0.000000 -1.963495"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.576525 0.406838 0.000000" rpy="0.000000 0.000000 -1.911136"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.556808 0.346153 0.000000" rpy="0.000000 0.000000 -1.858776"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.540293 0.284519 0.000000" rpy="0.000000 0.000000 -1.806416"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.527026 0.222105 0.000000" rpy="0.000000 0.000000 -1.754056"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.517045 0.159083 0.000000" rpy="0.000000 0.000000 -1.701696"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.510375 0.095625 0.000000" rpy="0.000000 0.000000 -1.649336"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.507035 0.031904 0.000000" rpy="0.000000 0.000000 -1.596976"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.507035 -0.031904 0.000000" rpy="0.000000 0.000000 -1.544616"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.510375 -0.095625 0.000000" rpy="0.000000 0.000000 -1.492257"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.517045 -0.159083 0.000000" rpy="0.000000 0.000000 -1.439897"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.527026 -0.222105 0.000000" rpy="0.000000 0.000000 -1.387537"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.540293 -0.284519 0.000000" rpy="0.000000 0.000000 -1.335177"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.556808 -0.346153 0.000000" rpy="0.000000 0.000000 -1.282817"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.576525 -0.406838 0.000000" rpy="0.000000 0.000000 -1.230457"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.599392 -0.466408 0.000000" rpy="0.000000 0.000000 -1.178097"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.625345 -0.524699 0.000000" rpy="0.000000 0.000000 -1.125737"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.654313 -0.581553 0.000000" rpy="0.000000 0.000000 -1.073377"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.686217 -0.636812 0.000000" rpy="0.000000 0.000000 -1.021018"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.720970 -0.690326 0.000000" rpy="0.000000 0.000000 -0.968658"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.758475 -0.741948 0.000000" rpy="0.000000 0.000000 -0.916298"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.798631 -0.791536 0.000000" rpy="0.000000 0.000000 -0.863938"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.841327 -0.838954 0.000000" rpy="0.000000 0.000000 -0.811578"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.886446 -0.884073 0.000000" rpy="0.000000 0.000000 -0.759218"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.933864 -0.926769 0.000000" rpy="0.000000 0.000000 -0.706858"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="11.983452 -0.966925 0.000000" rpy="0.000000 0.000000 -0.654498"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.035074 -1.004430 0.000000" rpy="0.000000 0.000000 -0.602139"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.088588 -1.039183 0.000000" rpy="0.000000 0.000000 -0.549779"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.143847 -1.071087 0.000000" rpy="0.000000 0.000000 -0.497419"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.200701 -1.100055 0.000000" rpy="0.000000 0.000000 -0.445059"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.258992 -1.126008 0.000000" rpy="0.000000 0.000000 -0.392699"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.318562 -1.148875 0.000000" rpy="0.000000 0.000000 -0.340339"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.379247 -1.168592 0.000000" rpy="0.000000 0.000000 -0.287979"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.440881 -1.185107 0.000000" rpy="0.000000 0.000000 -0.235619"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.503295 -1.198374 0.000000" rpy="0.000000 0.000000 -0.183260"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.566317 -1.208355 0.000000" rpy="0.000000 0.000000 -0.130900"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.629775 -1.215025 0.000000" rpy="0.000000 0.000000 -0.078540"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.693496 -1.218365 0.000000" rpy="0.000000 0.000000 -0.026180"/>
+      <geometry>
+        <box size="0.063830 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.525500 -1.219200 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="1.600200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.525500 1.219200 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <geometry>
+        <box size="1.600200 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.106400 0.000000 2.895600" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="1.828800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.106400 0.000000 3.962400" rpy="0.000000 0.000000 1.570796"/>
+      <geometry>
+        <box size="1.828800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.106400 -0.914400 3.429000" rpy="0.000000 1.570796 0.000000"/>
+      <geometry>
+        <box size="1.066800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="13.106400 0.914400 3.429000" rpy="0.000000 1.570796 0.000000"/>
+      <geometry>
+        <box size="1.066800 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.953374 0.011948 3.048000" rpy="0.000000 0.000000 1.623156"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.950876 0.035712 3.048000" rpy="0.000000 0.000000 1.727876"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.945908 0.059085 3.048000" rpy="0.000000 0.000000 1.832596"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.938524 0.081811 3.048000" rpy="0.000000 0.000000 1.937315"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.928805 0.103640 3.048000" rpy="0.000000 0.000000 2.042035"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.916857 0.124334 3.048000" rpy="0.000000 0.000000 2.146755"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.902812 0.143665 3.048000" rpy="0.000000 0.000000 2.251475"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.886823 0.161423 3.048000" rpy="0.000000 0.000000 2.356194"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.869065 0.177412 3.048000" rpy="0.000000 0.000000 2.460914"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.849734 0.191457 3.048000" rpy="0.000000 0.000000 2.565634"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.829040 0.203405 3.048000" rpy="0.000000 0.000000 2.670354"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.807211 0.213124 3.048000" rpy="0.000000 0.000000 2.775074"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.784485 0.220508 3.048000" rpy="0.000000 0.000000 2.879793"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.761112 0.225476 3.048000" rpy="0.000000 0.000000 2.984513"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.737348 0.227974 3.048000" rpy="0.000000 0.000000 3.089233"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.713452 0.227974 3.048000" rpy="0.000000 0.000000 -3.089233"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.689688 0.225476 3.048000" rpy="0.000000 0.000000 -2.984513"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.666315 0.220508 3.048000" rpy="0.000000 0.000000 -2.879793"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.643589 0.213124 3.048000" rpy="0.000000 0.000000 -2.775074"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.621760 0.203405 3.048000" rpy="0.000000 0.000000 -2.670354"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.601066 0.191457 3.048000" rpy="0.000000 0.000000 -2.565634"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.581735 0.177412 3.048000" rpy="0.000000 0.000000 -2.460914"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.563977 0.161423 3.048000" rpy="0.000000 0.000000 -2.356194"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.547988 0.143665 3.048000" rpy="0.000000 0.000000 -2.251475"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.533943 0.124334 3.048000" rpy="0.000000 0.000000 -2.146755"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.521995 0.103640 3.048000" rpy="0.000000 0.000000 -2.042035"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.512276 0.081811 3.048000" rpy="0.000000 0.000000 -1.937315"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.504892 0.059085 3.048000" rpy="0.000000 0.000000 -1.832596"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.499924 0.035712 3.048000" rpy="0.000000 0.000000 -1.727876"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.497426 0.011948 3.048000" rpy="0.000000 0.000000 -1.623156"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.497426 -0.011948 3.048000" rpy="0.000000 0.000000 -1.518436"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.499924 -0.035712 3.048000" rpy="0.000000 0.000000 -1.413717"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.504892 -0.059085 3.048000" rpy="0.000000 0.000000 -1.308997"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.512276 -0.081811 3.048000" rpy="0.000000 0.000000 -1.204277"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.521995 -0.103640 3.048000" rpy="0.000000 0.000000 -1.099557"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.533943 -0.124334 3.048000" rpy="0.000000 0.000000 -0.994838"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.547988 -0.143665 3.048000" rpy="0.000000 0.000000 -0.890118"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.563977 -0.161423 3.048000" rpy="0.000000 0.000000 -0.785398"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.581735 -0.177412 3.048000" rpy="0.000000 0.000000 -0.680678"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.601066 -0.191457 3.048000" rpy="0.000000 0.000000 -0.575959"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.621760 -0.203405 3.048000" rpy="0.000000 0.000000 -0.471239"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.643589 -0.213124 3.048000" rpy="0.000000 0.000000 -0.366519"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.666315 -0.220508 3.048000" rpy="0.000000 0.000000 -0.261799"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.689688 -0.225476 3.048000" rpy="0.000000 0.000000 -0.157080"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.713452 -0.227974 3.048000" rpy="0.000000 0.000000 -0.052360"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.737348 -0.227974 3.048000" rpy="0.000000 0.000000 0.052360"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.761112 -0.225476 3.048000" rpy="0.000000 0.000000 0.157080"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.784485 -0.220508 3.048000" rpy="0.000000 0.000000 0.261799"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.807211 -0.213124 3.048000" rpy="0.000000 0.000000 0.366519"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.829040 -0.203405 3.048000" rpy="0.000000 0.000000 0.471239"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.849734 -0.191457 3.048000" rpy="0.000000 0.000000 0.575959"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.869065 -0.177412 3.048000" rpy="0.000000 0.000000 0.680678"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.886823 -0.161423 3.048000" rpy="0.000000 0.000000 0.785398"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.902812 -0.143665 3.048000" rpy="0.000000 0.000000 0.890118"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.916857 -0.124334 3.048000" rpy="0.000000 0.000000 0.994838"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.928805 -0.103640 3.048000" rpy="0.000000 0.000000 1.099557"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.938524 -0.081811 3.048000" rpy="0.000000 0.000000 1.204277"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.945908 -0.059085 3.048000" rpy="0.000000 0.000000 1.308997"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.950876 -0.035712 3.048000" rpy="0.000000 0.000000 1.413717"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+    <visual>
+      <origin xyz="12.953374 -0.011948 3.048000" rpy="0.000000 0.000000 1.518436"/>
+      <geometry>
+        <box size="0.023928 0.050800 0.010000"/>
+      </geometry>
+      <material name="court_white"/>
+    </visual>
+  </link>
+</robot>
