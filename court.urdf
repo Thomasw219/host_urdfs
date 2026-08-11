@@ -5,30 +5,30 @@
   </material>
   <link name="court">
     <visual>
-      <origin xyz="0.000000 -7.620000 0.000000" rpy="0.000000 0.000000 0.000000"/>
+      <origin xyz="0.000000 -7.645400 0.000000" rpy="0.000000 0.000000 0.000000"/>
       <geometry>
-        <box size="28.651200 0.050800 0.010000"/>
+        <box size="28.702000 0.050800 0.010000"/>
       </geometry>
       <material name="court_white"/>
     </visual>
     <visual>
-      <origin xyz="14.325600 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
+      <origin xyz="14.351000 0.000000 0.000000" rpy="0.000000 0.000000 1.570796"/>
       <geometry>
-        <box size="15.240000 0.050800 0.010000"/>
+        <box size="15.290800 0.050800 0.010000"/>
       </geometry>
       <material name="court_white"/>
     </visual>
     <visual>
-      <origin xyz="0.000000 7.620000 0.000000" rpy="0.000000 0.000000 3.141593"/>
+      <origin xyz="0.000000 7.645400 0.000000" rpy="0.000000 0.000000 3.141593"/>
       <geometry>
-        <box size="28.651200 0.050800 0.010000"/>
+        <box size="28.702000 0.050800 0.010000"/>
       </geometry>
       <material name="court_white"/>
     </visual>
     <visual>
-      <origin xyz="-14.325600 0.000000 0.000000" rpy="0.000000 0.000000 -1.570796"/>
+      <origin xyz="-14.351000 0.000000 0.000000" rpy="0.000000 0.000000 -1.570796"/>
       <geometry>
-        <box size="15.240000 0.050800 0.010000"/>
+        <box size="15.290800 0.050800 0.010000"/>
       </geometry>
       <material name="court_white"/>
     </visual>
